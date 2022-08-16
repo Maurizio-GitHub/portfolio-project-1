@@ -1,0 +1,110 @@
+/* Base Rules */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #333333;
+}
+
+/* Headers and Logo */
+
+h1,
+h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #292929;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 20px;
+}
+
+#logo>#logo-plural {
+    text-transform: lowercase;
+}
+
+#logo>#logo-tuning {
+    font-size: 80%;
+    letter-spacing: 2px;
+}
+
+/* Navigation Links */
+
+#menu,
+#logo {
+    line-height: 80px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    float: right;
+}
+
+#menu>li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #333333;
+}
+
+.active {
+    border-bottom: 1px solid #333333;
+}
+
+/* Hero Image */
+
+#hero-image-tuning {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/nft-hero-image.png') no-repeat center center;
+    animation-name: hero-image-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* Core Section */
+
+#basics {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#core {
+    height: 650px;
+}
