@@ -72,10 +72,9 @@ h2 {
 /* Hero Image */
 
 #hero-image-tuning {
-    height: 650px;
+    height: 640px;
     width: 100%;
     overflow: hidden;
-    position: relative;
 }
 
 @keyframes hero-image-zoom {
@@ -89,7 +88,7 @@ h2 {
 }
 
 #hero-image {
-    height: 650px;
+    height: 640px;
     width: 100%;
     background: url('../images/nft-hero-image.png') no-repeat center center;
     animation-name: hero-image-zoom;
@@ -106,5 +105,58 @@ h2 {
 }
 
 #core {
-    height: 650px;
+    height: 640px;
+}
+
+#left-side {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#left-side-content {
+    width: 66%;
+    float: right;
+}
+
+.contents {
+    font-size: 110%;
+    padding-bottom: 20px;
+}
+
+#right-side {
+    width: 50%;
+    float: right;
+}
+
+#right-side-content {
+    width: 90%;
+    float: right;
+}
+
+#call-to-action {
+    padding-top: 80px;
+    font-size: 150%;
+}
+
+/* Footer */
+
+footer {
+    height: 160px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;
+    color: #333333;
 }
