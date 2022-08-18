@@ -1,4 +1,5 @@
 /* Base Rules */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 * {
@@ -24,8 +25,8 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
-    margin-left: 20px;
+    font-size: 370%;
+    margin-left: 25px;
 }
 
 #logo>#logo-plural {
@@ -41,11 +42,12 @@ h2 {
 
 #menu,
 #logo {
+    max-height: 80px;
     line-height: 80px;
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 115%;
     letter-spacing: 3px;
     float: right;
 }
@@ -53,7 +55,7 @@ h2 {
 #menu>li {
     float: left;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -100,8 +102,8 @@ h2 {
 
 #basics {
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+    margin: 25px 0;
+    font-size: 285%;
 }
 
 #core {
@@ -109,19 +111,19 @@ h2 {
 }
 
 #left-side {
-    padding-top: 30px;
+    margin-top: 25px;
     width: 50%;
     float: left;
 }
 
 #left-side-content {
-    width: 66%;
+    width: 67%;
     float: right;
 }
 
 .contents {
     font-size: 110%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #right-side {
@@ -130,24 +132,33 @@ h2 {
 }
 
 #right-side-content {
-    width: 90%;
+    width: 87%;
     float: right;
-}
-
-#call-to-action {
-    padding-top: 80px;
-    font-size: 150%;
 }
 
 /* Footer */
 
 footer {
     height: 160px;
+    margin-top: 50px;
+    background-color: #292929;
+}
+
+#call-to-action {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#call-to-action>span {
+    font-size: 210%;
 }
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks>li {
@@ -155,8 +166,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 180%;
-    margin: 1%;
-    padding: 5%;
-    color: #333333;
+    font-size: 150%;
+    margin: 0.5% 1%;
+    color: white;
 }
