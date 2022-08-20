@@ -52,11 +52,9 @@ h2 {
 }
 
 /* Navigation Links */
-/* height=80rem was given to balance a discrepancy of 4rem (84rem title VS 80rem menu) after setting line-height=80rem */
 
 #menu,
 #title {
-    height: 80rem;
     line-height: 80rem;
 }
 
@@ -107,7 +105,7 @@ h2 {
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-name: hero-image-zoom;
-    background: url('../images/nft-hero-image.png') no-repeat center center;
+    background: url('../images/nft-hero-image.webp') no-repeat center center;
     height: 100%;
     width: 100%;
 }
@@ -115,9 +113,10 @@ h2 {
 /* Core Section */
 
 #basics {
-    font-size: 45rem;
+    font-size: 52rem;
     margin: 0.5em 0;
     text-align: center;
+    text-transform: capitalize;
 }
 
 #core {
@@ -126,7 +125,7 @@ h2 {
 
 #left-side {
     float: left;
-    margin-top: 25rem;
+    margin-top: 18rem;
     width: 50%;
 }
 
@@ -150,6 +149,11 @@ h2 {
 #right-side-content {
     float: right;
     width: 87%;
+}
+
+#token {
+    height: 530rem;
+    width: 530rem;
 }
 
 /* Footer */
@@ -191,7 +195,7 @@ footer {
 /* Newsletter Page and Form */
 
 .form-section {
-    background: url('../images/subscription-hero-image.jpg');
+    background: url('../images/subscription-hero-image.webp');
     background-position: center;
     background-size: cover;
     clear: left;
@@ -246,4 +250,86 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #aa6c39;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1820px) {
+    #core {
+        height: 1280px;
+    }
+
+    #left-side {
+        float: left;
+        width: 85%;
+    }
+
+    #left-side-content {
+        width: 82%;
+    }
+
+    #right-side {
+        float: left;
+        width: 100%;
+    }
+
+    #right-side-content {
+        float: left;
+        width: 100%;
+    }
+
+    #token {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #token {
+        height: 430rem;
+        margin-top: 20rem;
+        width: 430rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #title {
+        font-size: 40rem;
+    }
+
+    #menu {
+        font-size: 18rem;
+    }
+
+    #basics {
+        font-size: 36rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #token {
+        height: 320rem;
+        margin-top: 20rem;
+        width: 320rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contents {
+        font-size: 17rem;
+    }
+
+    #token {
+        height: 160rem;
+        margin-top: 20rem;
+        width: 160rem;
+    }
 }
