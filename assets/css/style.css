@@ -192,6 +192,127 @@ footer {
     margin: 0.3em 0.7em;
 }
 
+/* Timeline - Milestone Page */
+
+#history {
+    background: url('../images/milestones-page-background.webp') no-repeat center/cover;
+    clear: left;
+}
+
+#container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100rem 0;
+}
+
+.timeline {
+    max-width: 800rem;
+    position: relative;
+    width: 80%;
+}
+
+.timeline>ul {
+    list-style: none;
+}
+
+.timeline>ul>li {
+    background-color: #292929;
+    border-radius: 10rem;
+    color: #fafafa;
+    margin-bottom: 20rem;
+    padding: 20rem;
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.milestone>h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.milestone>h2 {
+    color: #fafafa;
+}
+
+.milestone>p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.milestone .period {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+    }
+
+    .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0px 20px 20px;
+    }
+
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 0px;
+    }
+
+    .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+    }
+
+    .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+    }
+
+    .milestone .period {
+        position: absolute;
+        top: -30px;
+    }
+
+    .timeline ul li:hover::before {
+        background-color: aqua;
+    }
+}
+
 /* Newsletter Page and Form */
 
 .form-section {
