@@ -303,30 +303,34 @@ footer {
     }
 }
 
-/* Newsletter Page and Form */
+/* Newsletter Page and Subscription Form */
 
-.form-section {
-    background: url('../images/subscription-hero-image.webp') center/cover;
+#subscription {
+    background: url('../images/newsletter-page-background.webp') center/cover;
     clear: left;
-    height: 40em;
 }
 
-.subscription-form {
+#wrapper {
+    height: 640rem;
+}
+
+#subscription-form {
     background-color: rgba(244, 229, 220, 0.111);
-    border-radius: 0.3em;
+    border-radius: 0.5em;
     color: #fafafa;
-    font-size: 18rem;
     left: 14.4%;
-    margin: 7.7em 13.8em 0 0;
+    letter-spacing: 0.02em;
+    margin-top: 10.3em;
     max-width: 430rem;
     padding: 2.2em;
     position: absolute;
 }
 
-.subscription-form>h2 {
+#subscription-form>h2 {
     color: #fafafa;
-    font-size: 22rem;
-    margin-bottom: 1.2em;
+    font-size: 24rem;
+    letter-spacing: 0.14em;
+    margin-bottom: 1.1em;
 }
 
 .text-input {
@@ -334,9 +338,9 @@ footer {
     border: 0.1em solid #fafafa;
     border-radius: 0.3em;
     color: #fafafa;
-    font-size: 17rem;
-    height: 1.5em;
-    margin: 0.3em 0 1.2em 0;
+    height: 1.8em;
+    letter-spacing: 0.02em;
+    margin: 0.4em 0 1.3em 0;
     padding-left: 0.3em;
     width: 100%;
 }
@@ -345,7 +349,7 @@ footer {
     border-color: #aa6c39;
 }
 
-.join-button {
+#join-button {
     background-color: #aa6c39;
     border-radius: 0.3em;
     color: #fafafa;
@@ -356,7 +360,7 @@ footer {
     text-align: center;
 }
 
-.join-button:hover {
+#join-button:hover {
     background-color: #fafafa;
     color: #aa6c39;
 }
