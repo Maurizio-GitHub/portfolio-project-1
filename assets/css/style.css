@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
-/* HTML setting to get the default number of pixels in single units of rem without impacting on accessibility: (16px * 6.25%) = 1px = 1rem */
-/* Everything about font sizes is linked to the following percentage as a single point of parametrization */
+/* HTML setting to get the default number of pixels in single units of rem without impacting on accessibility: (16px * 6.25%) = 1px = 1rem
+   Everything about font sizes is linked to the following percentage as a single point of parametrization */
 
 html {
     font-size: 6.25%;
@@ -39,8 +39,8 @@ h2 {
 
 #title {
     float: left;
-    font-size: 58rem;
-    margin-left: 25rem;
+    font-size: 48rem;
+    margin-left: 0.5em;
 }
 
 #title>#title-plural {
@@ -56,18 +56,20 @@ h2 {
 
 #menu,
 #title {
-    line-height: 80rem;
+    line-height: 72rem;
 }
 
 #menu {
-    float: right;
+    clear: left;
+    float: left;
+    letter-spacing: 2rem;
     font-size: 20rem;
-    letter-spacing: 0.1em;
+    margin-left: 1.2em;
 }
 
 #menu>li {
     float: left;
-    margin-right: 25rem;
+    margin-right: 1.2em;
 }
 
 #menu a {
@@ -86,7 +88,7 @@ h2 {
 /* Hero Image */
 
 #hero-image-tuning {
-    height: 640rem;
+    height: 40em;
     overflow: hidden;
     width: 100%;
 }
@@ -97,15 +99,15 @@ h2 {
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
 #hero-image {
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-name: hero-image-zoom;
-    background: url('../images/nft-hero-image.webp') no-repeat center center;
+    background: url('../images/home-page-hero-image.webp') no-repeat center center;
     height: 100%;
     width: 100%;
 }
@@ -113,53 +115,32 @@ h2 {
 /* Core Section */
 
 #basics {
-    font-size: 52rem;
-    margin: 0.5em 0;
+    font-size: 40rem;
+    margin: 0.75em 0.25em;
     text-align: center;
     text-transform: capitalize;
 }
 
-#core {
-    height: 640rem;
-}
-
 #left-side {
     float: left;
-    margin-top: 18rem;
-    width: 50%;
+    margin: 1em 2.5em;
 }
 
 #left-side-content {
     float: right;
-    width: 67%;
 }
 
 .contents {
-    font-size: 18rem;
-    padding-bottom: 1.1em;
+    padding-bottom: 1em;
     text-align: justify;
     text-justify: inter-word;
-}
-
-#right-side {
-    float: right;
-    width: 50%;
-}
-
-#right-side-content {
-    float: right;
-    width: 87%;
-}
-
-#token {
-    height: 530rem;
-    width: 530rem;
 }
 
 /* Footer */
 
 footer {
     background-color: #292929;
+    clear: both;
     height: 160rem;
     margin-top: 80rem;
 }
@@ -190,6 +171,19 @@ footer {
     color: #fafafa;
     font-size: 26rem;
     margin: 0.3em 0.7em;
+}
+
+@media screen and (min-width: 980px) {
+    #basics {
+        font-size: 48rem;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    #menu {
+        clear: none;
+        float: right;
+    }
 }
 
 /* Timeline - Milestone Page */
@@ -311,7 +305,7 @@ footer {
 }
 
 #wrapper {
-    height: 640rem;
+    min-height: max(100vh, 40em);
 }
 
 #subscription-form {
@@ -320,7 +314,7 @@ footer {
     color: #fafafa;
     left: 14.4%;
     letter-spacing: 0.02em;
-    margin-top: 10.3em;
+    margin: 8.5% 12% 0 0;
     max-width: 430rem;
     padding: 2.2em;
     position: absolute;
@@ -365,7 +359,47 @@ footer {
     color: #aa6c39;
 }
 
-/* Media Queries */
+/* Media Queries
+
+#menu {
+    float: right;
+}
+
+#core {
+    height: 640rem;
+}
+
+#left-side {
+    float: left;
+    margin-top: 18rem;
+    width: 50%;
+}
+
+#left-side-content {
+    float: right;
+    width: 67%;
+}
+
+#right-side {
+    float: right;
+    width: 50%;
+}
+
+#right-side-content {
+    float: right;
+    width: 87%;
+}
+
+#token {
+    height: 530rem;
+    width: 530rem;
+}
+
+@media screen and (min-width: 480px) {
+    #basics {
+        font-size: 44rem;
+    }
+}
 
 @media screen and (max-width: 1820px) {
     #core {
@@ -446,3 +480,4 @@ footer {
         width: 160rem;
     }
 }
+*/
