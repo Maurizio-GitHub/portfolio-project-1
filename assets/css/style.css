@@ -320,6 +320,18 @@ footer {
     }
 }
 
+/* Digital Art Page */
+
+#digital-art {
+    clear: left;
+    margin-bottom: 4em;
+    padding-top: 3em;
+}
+
+.art {
+    padding-bottom: 1em;
+}
+
 /* Newsletter Page and Subscription Form */
 
 #subscription {
@@ -329,6 +341,7 @@ footer {
 
 #wrapper {
     min-height: max(100vh, 40em);
+    margin-bottom: 5em;
 }
 
 #subscription-form {
