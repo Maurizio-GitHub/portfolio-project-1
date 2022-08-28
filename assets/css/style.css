@@ -178,35 +178,6 @@ footer {
     margin: 0.3em 0.7em;
 }
 
-/* Homepage Media Queries */
-
-@media screen and (min-width: 1180px) {
-    #menu {
-        clear: none;
-        float: right;
-    }
-
-    #left-side {
-        margin: 1em auto;
-        width: 50%;
-    }
-
-    #left-side-content {
-        padding-left: calc(29vw - 21vh);
-    }
-
-    #right-side {
-        float: right;
-        margin: 1em auto 4em;
-        width: 50%;
-    }
-    
-    #right-side-content {
-        float: right;
-        padding-right: calc(29vw - 21vh);
-    }
-}
-
 /* Milestone Page - Timeline */
 
 #history {
@@ -325,8 +296,9 @@ footer {
 #digital-art {
     clear: left;
     display: flex;
+    flex-direction: column;
     margin-bottom: 4em;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 #text {
@@ -339,7 +311,7 @@ footer {
 }
 
 #text>h2 {
-    font-size: 32rem;
+    font-size: clamp(24rem, 24rem + 0.1vmin, 32rem);
     padding-bottom: 1em;
 }
 
@@ -350,6 +322,7 @@ footer {
 #artwork {
     flex: 1;
     order: 1;
+    margin-bottom: 3em;
     padding: 0 2em 0 2em;
 }
 
@@ -358,12 +331,55 @@ footer {
     width: 99%;
 }
 
+figure {
+    text-align: center;
+}
+
 figcaption {
-    width: 96%;
+    text-align: left;
+    width: 97%;
 }
 
 .art {
     padding-bottom: 1.5em;
+}
+
+/* Homepage and Digital Art Page Media Queries */
+
+@media screen and (min-width: 1180px) {
+    #menu {
+        clear: none;
+        float: right;
+    }
+
+    #left-side {
+        margin: 1em auto;
+        width: 50%;
+    }
+
+    #left-side-content {
+        padding-left: calc(29vw - 21vh);
+    }
+
+    #right-side {
+        float: right;
+        margin: 1em auto 4em;
+        width: 50%;
+    }
+    
+    #right-side-content {
+        float: right;
+        padding-right: calc(29vw - 21vh);
+    }
+
+    #digital-art {
+        flex-direction: row;
+        padding-top: 3em;
+    }
+
+    #artwork {
+        margin-bottom: 0;
+    }
 }
 
 /* Newsletter Page and Subscription Form */
