@@ -107,14 +107,14 @@ h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-name: hero-image-zoom;
-    background: url('../images/home-page-hero-image.webp') no-repeat center center;
+    background: url('../images/homepage-hero-image.webp') no-repeat center center;
     height: 100%;
     width: 100%;
 }
 
 /* Homepage Main Content */
 
-#basics {
+#basics>h2 {
     font-size: clamp(32rem, 32rem + 0.6vmin + 0.6vmax, 48rem);
     margin: 0.75em 0.25em;
     text-align: center;
