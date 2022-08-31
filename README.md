@@ -101,13 +101,13 @@ The site mainly targets people who usually do their first searches to get their 
 
 - HTML
 
-    - No errors found via the official W3C validator.
+    - No errors found via the official [W3C validator](https://validator.w3.org/nu/).
 
 <br>
 
 - CSS
 
-    - No errors found via the official Jigsaw validator.
+    - No errors found via the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
 <br>
 
@@ -141,10 +141,10 @@ The live link can be found here: [NFTs For Dummies](https://maurizio-github.gith
 
 - Content
 
-    - Ready-to-use code, to make and properly format the navigation menu, the hero image animation and part of the footer, was taken from Coding Institute's Love Running project.
+    - Ready-to-use code, to make and properly format the navigation menu, the hero image animation and part of the footer, was taken from Coding Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project.
 
 <br>
 
 - Media
 
-    - Every image presented was taken from Pexel, apart from the picture representing Beeple's artwork, which was taken directly from Christie's.
+    - Every image presented was taken from [Pexel](https://www.pexels.com/), apart from the picture representing Beeple's artwork, which was taken directly from [Christie's](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924?ldp_breadcrumb=back).
