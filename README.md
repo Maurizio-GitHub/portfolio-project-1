@@ -62,7 +62,7 @@ The site mainly targets people who usually do their first searches to get their 
 
 - Newsletter page
 
-    - This page allows the user to subscribe to NFTs For Dummies' Newsletter, a weekly collection of valuable information and analyses about the NFTs world. The user is asked to submit their full name and email address.
+    - This page allows the user to subscribe to NFTs For Dummies' Newsletter, a weekly collection of valuable information and analyses about the NFTs world. The user is asked to submit their full name and email address:
 
 ![Subscription form](/assets/media/subscription-form.png "Subscription Form")
 
@@ -73,7 +73,7 @@ The site mainly targets people who usually do their first searches to get their 
 <br>
 
 - The website was successfully tested on different browsers: Chrome, Edge, Safari.
-- The website is responsive and looks good on different devices. Its functioning was successfully tested on all standard screen sizes by using Chrome DevTools.
+- The website is responsive and looks good on different devices. Its functioning was successfully tested on all standard screen sizes by using Chrome DevTools as well as [Am I Responsive?](https://ui.dev/amiresponsive)
 - I confirmed that any single navigation element and piece of text is readable, easy to understand and fully accessible.
 - I confirmed that the subscription form properly works. It requires entries on every field, will only accept an email in the relevant field and the 'Join' button does exactly what it was designed to do.
 
@@ -85,7 +85,7 @@ The site mainly targets people who usually do their first searches to get their 
 
 - Fixed bugs
 
-    - The home page, at the very beginning, had not been built with a mobile-first approach. This resulted in a poor mobile experience, net of the necessary media queries added. Therefore, by changing approach, code became easier to (re)write and the page much better to look at.
+    - The home page, at the very beginning, had not been built with a mobile-first approach. This resulted in a poor mobile experience, net of the necessary media queries added. Therefore, by changing approach, the code became easier to (re)write and the page much better to look at.
 
 <br>
 
@@ -113,7 +113,7 @@ The site mainly targets people who usually do their first searches to get their 
 
 - Accessibility
 
-    - I confirmed that both colors and fonts chosen are easy to read and tested accessibility via Lighthouse, within Chrome DevTools.
+    - I confirmed that both colors and fonts chosen are easy to read and tested accessibility via Lighthouse, within Chrome DevTools:
 
 ![Lighthouse](/assets/media/performance-lighthouse.png "Performance Analysis")
 
