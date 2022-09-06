@@ -73,7 +73,7 @@ h2 {
 
 #menu>li {
     float: left;
-    margin-right: 1.2em;
+    margin-right: 2.5em;
 }
 
 #menu a {
@@ -87,6 +87,10 @@ h2 {
 
 .active {
     border-bottom: 1rem solid #333333;
+}
+
+.visibility {
+    display: none;
 }
 
 /* Homepage Hero Image */
@@ -357,6 +361,10 @@ figcaption {
         float: right;
     }
 
+    #menu>li {
+        margin-right: 1.2em;
+    }
+
     #left-side {
         margin: 1em auto;
         width: 50%;
@@ -375,6 +383,10 @@ figcaption {
     #right-side-content {
         float: right;
         padding-right: calc(29vw - 21vh);
+    }
+
+    .visibility {
+        display: inline;
     }
 
     #digital-art {
