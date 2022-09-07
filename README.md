@@ -54,7 +54,7 @@ The site mainly targets people who usually do their first searches to get their 
 
 - Digital Art page
 
-    - This section was added to introduce newbies and content creators to the real revolution taking place in the world of digital art thanks to NFTs. Complex, yet easily explained, concepts, accompanied by a brief historical excursus, are followed by curiosities and upheavals in the world of art. In addition, the much talked about artwork of Beeple is shown, with a direct, external link to the mind-boggling auction ended on March 11, 2021:
+    - This section was added to introduce newbies and content creators to the real revolution taking place in the world of digital art thanks to NFTs. Complex, yet easily explained concepts, accompanied by a brief historical excursus, are followed by curiosities and upheavals in the world of art. In addition, the much talked about artwork of Beeple is shown, with a direct, external link to the mind-boggling auction ended on March 11, 2021:
 
 ![Beeple's artwork](/assets/media/digital-art.png "Beeple's Artwork")
 
