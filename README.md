@@ -91,7 +91,13 @@ The site mainly targets people who usually do their first searches to get their 
 
 - Unfixed bugs
 
-    - No unfixed bugs to report.
+    - There is a weird rendering issue affecting Title and Navigation Menu on some 2018 Apple devices (iPhone XS Max and MacBook Air), whose root cause has not been possible to identify yet, either via searching for it on tech forums or via YouTube. No compatibility issues seem to be involved with respect to the code used.
+
+<br>
+
+- Future developments
+
+    - Home page is not 4K-optimized, as current choices of hero image and textual contents do not provide the same immersive experience they have for lower resolutions. Future developments will address this by looking for more advanced media contents and the addition of some extra information.
 
 <br>
 
