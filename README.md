@@ -8,6 +8,28 @@ The site mainly targets people who usually do their first searches to get their 
 
 <br>
 
+[Live link to NFTs For Dummies](https://maurizio-github.github.io/portfolio-project-1/)
+
+<br>
+
+## Table of Contents:
+
+<br>
+
+1. [Features](#features)
+
+2. [Testing](#testing)
+
+3. [Validation](#validation)
+
+4. [Bugs](#bugs)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+
+<br>
+
 ## Features
 
 <br>
@@ -68,6 +90,10 @@ The site mainly targets people who usually do their first searches to get their 
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 ## Testing
 
 <br>
@@ -76,6 +102,38 @@ The site mainly targets people who usually do their first searches to get their 
 - The website is responsive and looks good on different devices. Its functioning was successfully tested on all standard screen sizes by using Chrome DevTools as well as [Am I Responsive?](https://ui.dev/amiresponsive)
 - I confirmed that any single navigation element and piece of text is readable, easy to understand and fully accessible.
 - I confirmed that the subscription form properly works. It requires entries on every field, will only accept an email in the relevant field and the 'Join' button does exactly what it was designed to do.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+## Validation
+
+<br>
+
+- HTML
+
+    - No errors found via the official [W3C validator](https://validator.w3.org/nu/).
+
+<br>
+
+- CSS
+
+    - No errors found via the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+
+<br>
+
+- Accessibility
+
+    - I confirmed that both colors and fonts chosen are easy to read and tested accessibility via Lighthouse, within Chrome DevTools:
+
+![Lighthouse](/assets/media/performance-lighthouse.png "Performance Analysis")
+
+<br>
+
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -101,27 +159,7 @@ The site mainly targets people who usually do their first searches to get their 
 
 <br>
 
-## Validator Testing
-
-<br>
-
-- HTML
-
-    - No errors found via the official [W3C validator](https://validator.w3.org/nu/).
-
-<br>
-
-- CSS
-
-    - No errors found via the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
-
-<br>
-
-- Accessibility
-
-    - I confirmed that both colors and fonts chosen are easy to read and tested accessibility via Lighthouse, within Chrome DevTools:
-
-![Lighthouse](/assets/media/performance-lighthouse.png "Performance Analysis")
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -141,6 +179,10 @@ The live link can be found here: [NFTs For Dummies](https://maurizio-github.gith
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 ## Credits
 
 <br>
@@ -154,3 +196,7 @@ The live link can be found here: [NFTs For Dummies](https://maurizio-github.gith
 - Media
 
     - Every image presented was taken from [Pexel](https://www.pexels.com/), apart from the picture representing Beeple's artwork, which was taken directly from [Christie's](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924?ldp_breadcrumb=back).
+
+<br>
+
+[Back to Top](#table-of-contents)
